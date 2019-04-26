@@ -47,10 +47,10 @@ let mapleader = ","
 " Fast saving
 nmap <leader>w :w!<cr>
 
-" :W sudo saves the file 
+" :ww sudo saves the file 
 " (useful for handling the permission-denied error)
-command W w !sudo tee % > /dev/null
-
+command WW w !sudo tee % > /dev/null
+command W w
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
