@@ -75,3 +75,8 @@ endif
 " => Twig section
 """"""""""""""""""""""""""""""
 autocmd BufRead *.twig set syntax=html filetype=html
+
+"
+" => Markdown
+" 
+let vim_markdown_folding_disabled = 1
